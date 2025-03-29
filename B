@@ -1,0 +1,31 @@
+{
+  "name": "phonepe-clone",
+  "version": "1.0.0",
+  "description": "A clone of PhonePe frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "react-scripts build",
+    "dev": "react-scripts start"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.5.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
+
+
+npm init -y
+npm install express cors body-parser razorpay dotenv
+
+git add .
+git commit -m "Added package.json and dependencies"
+git push origin main
