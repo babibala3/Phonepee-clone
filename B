@@ -29,3 +29,19 @@ npm install express cors body-parser razorpay dotenv
 git add .
 git commit -m "Added package.json and dependencies"
 git push origin main
+
+{
+  "scripts": {
+    "start": "react-scripts start",  
+    "build": "react-scripts build",  
+    "dev": "react-scripts start"
+  }
+}
+
+{
+  "scripts": {
+    "dev": "next dev",  
+    "build": "next build",  
+    "start": "next start"
+  }
+}
